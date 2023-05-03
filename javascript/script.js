@@ -7,10 +7,10 @@ BUTTONHAM.addEventListener('click',()=>{
 
     if (ISOPENED === 'false') {
         BUTTONHAM.setAttribute('aria-expended', 'true');
-        FORM.style.marginLeft = "0%";
+        //FORM.style.marginLeft = "0%";
     }
     else{
         BUTTONHAM.setAttribute('aria-expended', 'false');
-        FORM.style.marginLeft = "-200%";
+        //FORM.style.marginLeft = "-200%";
     }  
 })

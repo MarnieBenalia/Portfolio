@@ -1,0 +1,10 @@
+@use "helper" as h;
+//EXEMPLE: color: h.$red;
+
+.picture{
+    background-color: h.$rose;
+}
+
+.photo{
+    width: 20em;
+}
