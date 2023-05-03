@@ -11,7 +11,12 @@
   background-color: #3A32E6;
 }
 
+h1 {
+  color: #f1dcc6;
+}
+
 .logo {
+  fill: #f1dcc6;
   width: 5em;
 }
 
@@ -64,6 +69,10 @@ button:hover {
 
 .photo {
   width: 20em;
+}
+
+h2 {
+  text-align: center;
 }
 
 .contact {
