@@ -17,7 +17,17 @@ h1 {
 
 .logo {
   fill: white;
-  width: 5em;
+  width: 4em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-nav {
+  list-style-type: none;
+  color: white;
 }
 
 button {
@@ -73,6 +83,7 @@ button:hover {
 
 h2 {
   text-align: center;
+  color: #FFBA3F;
 }
 
 .contact {

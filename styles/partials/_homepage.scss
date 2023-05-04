@@ -13,5 +13,15 @@ h1{
 
 .logo{
     fill:white;
-    width:5em;
+    width:4em;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.menu-nav{
+    list-style-type: none;
+    color:white;
+
 }
