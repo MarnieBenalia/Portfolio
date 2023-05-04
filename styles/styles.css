@@ -28,6 +28,11 @@ h1 {
 .menu-nav {
   list-style-type: none;
   color: white;
+  position: absolute;
+  background-color: #3A32E6;
+  margin-top: 3em;
+  margin-left: -200%;
+  transition: all 0.7s;
 }
 
 button {
@@ -75,10 +80,13 @@ button:hover {
 
 .picture {
   background-color: #FFC9CA;
+  display: flex;
+  justify-content: center;
 }
 
 .photo {
   width: 20em;
+  padding: 2em;
 }
 
 h2 {

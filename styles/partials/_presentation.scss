@@ -3,10 +3,13 @@
 
 .picture{
     background-color: h.$rose;
+    display: flex;
+    justify-content: center;
 }
 
 .photo{
     width: 20em;
+    padding: 2em;
 }
 
 h2{
