@@ -102,6 +102,13 @@ button:hover {
 h2 {
   text-align: center;
   color: #FFBA3F;
+  padding-top: 5%;
+}
+
+p {
+  font-family: "Archivo";
+  text-align: center;
+  padding: 3%;
 }
 
 .contact {
