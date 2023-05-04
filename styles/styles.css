@@ -21,6 +21,7 @@ h1 {
 }
 
 .navbar {
+  padding: 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -30,12 +31,14 @@ h1 {
   text-align: center;
   color: white;
   position: absolute;
+  font-family: "Archivo";
   background-color: #3A32E6;
-  margin-top: 3em;
+  font-weight: 800;
   margin-left: -200%;
   transition: all 0.7s;
   padding: 2%;
   width: 100%;
+  text-transform: uppercase;
 }
 
 li {
