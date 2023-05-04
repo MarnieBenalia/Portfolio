@@ -33,6 +33,7 @@ h1 {
   margin-top: 3em;
   margin-left: -200%;
   transition: all 0.7s;
+  padding: 2%;
 }
 
 button {
