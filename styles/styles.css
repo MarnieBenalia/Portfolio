@@ -21,7 +21,7 @@
   /* display: flex;
    justify-content: center;
    align-items: center;*/
-  height: 100vh;
+  height: 120vh;
   scroll-snap-align: center;
 }
 
@@ -134,8 +134,8 @@ h2 {
 p {
   font-family: "Archivo";
   font-size: 20px;
-  text-align: center;
-  padding: 3%;
+  text-align: justify;
+  padding: 10%;
 }
 
 /*.contact {
