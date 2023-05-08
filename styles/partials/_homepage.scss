@@ -10,12 +10,15 @@ h1{
 .logo{
     fill:white;
     width:3.5em;
+
 }
 
 .navbar{
     padding:5%;
+    //position: fixed; --Pour que la nav bar se retrouve sur tout les plan mais faut que je trouve un moyen de la faire changer de couleur
     display:flex;
     justify-content: space-between;
+
 }
 
 .menu-nav{
