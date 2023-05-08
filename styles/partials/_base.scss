@@ -1,8 +1,44 @@
 @use "helper" as h;
 //EXEMPLE: color: h.$red;
 
+::before,::after{
+    box-sizing: border-box;
+ /*   margin:0;
+    padding:0;*/
+}
+
 *{
     margin:0;
     padding:0;
 }
 
+.container{
+    height:100vh;
+    overflow-y:scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.v-slider-bloc{
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.v-slider-bloc:nth-child(1){
+
+    background-color: h.$bleu;
+}
+
+.v-slider-bloc:nth-child(2){
+    background-color: h.$rose;
+}
+
+.v-slider-bloc:nth-child(4){
+    background-color: h.$jaune;
+}
+
+ul{
+    list-style-type: none;
+}

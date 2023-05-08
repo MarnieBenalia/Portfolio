@@ -1,12 +1,6 @@
 @use "helper" as h;
 //EXEMPLE: color: h.$red;
 
-.picture{
-    background-color: h.$rose;
-    display: flex;
-    justify-content: center;
-}
-
 .photo{
     width: 20em;
     padding: 2em;
@@ -20,6 +14,7 @@ h2{
 
 p{
     font-family: h.$archivo;
+    font-size: 20px;
     text-align:center;
     padding:3%;
 }
